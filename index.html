@@ -1,90 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vikram's Portfolio</title>
 </head>
 <body>
-    <nav class="navbar">
+
+  <nav>
     <ul>
-        <li><a href="#welcome">Welcome</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#achievements">Achievements</a></li>
-        <li><a href="#goals">Future Goals</a></li>
-        <li><a href="#personal">Personal Side</a></li>
-        <li><a href="#contact">Contact</a></li>
+      <li><a href="#welcome">Welcome</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#goals">Future Goals</a></li>
+      <li><a href="#personal">Personal Side</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
-</nav>
+  </nav>
 
+  <hr>
 
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <p><strong>Hi, I'm Vikram Choudhary</strong>. Explore my journey and aspirations!</p>
+  </header>
 
-    <div class="container">
-        <header class="hero">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Hi, I'm vikram choudhary. Explore my journey and aspirations!</p>
-        </header>
+  <section id="welcome">
+    <h2>Welcome</h2>
+    <img src="your-photo.jpeg" alt="Your Photo" width="200">
+    <br><br>
+    <iframe width="300" height="300" src="https://www.youtube.com/embed/h6vDPKtk804" 
+      title="Motivational Video" frameborder="0" allowfullscreen></iframe>
+  </section>
 
-        <section id="welcome" class="section">
-            <h2>Welcome</h2>
-            <div class="media">
-                <img src="your-photo.jpeg" alt="Your Photo" class="profile-photo">
-               <iframe width="300" height="300" src="https://www.youtube.com/embed/h6vDPKtk804" title="IT&#39;S YOU VS YOU - Motivational Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <hr>
 
-            </div>
-        </section>
+  <section id="about">
+    <h2>About Me</h2>
+    <p><strong>Name:</strong> Vikram Choudhary</p>
+    <p><strong>Location:</strong> Vasai</p>
+    <p><strong>Education:</strong> ST. John College Of Engineering & Management, Computer Engineering</p>
+    <p><strong>Languages Known:</strong> C, Python, C++</p>
+  </section>
 
-        <section id="about" class="section">
-            <h2>About Me</h2>
-            <p><strong>Name:</strong> Vikram Choudhary</p>
-            <p><strong>Location:</strong> vasai</p>
-            <p><strong>Education:</strong> ST. John College Of Engineering & management Branch is computer Engineering</p>
-            <p><strong>Languages Known:</strong> c  python c++ language</p>
-        </section>
+  <hr>
 
-        <section id="achievements" class="section">
-            <h2>Achievements</h2>
-            <ul>
-                <li>made multiple apps on AR/VR and android app development</li>
-                <li>Internship of AR and VR</li>
-                
-            </ul>
-        </section>
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Made multiple apps in AR/VR and Android</li>
+      <li>Completed an internship in AR and VR</li>
+    </ul>
+  </section>
 
-        <section id="goals" class="section">
-            <h2>Future Goals</h2>
-            <p>I want to become a software developer.</p>
-        </section>
+  <hr>
 
-        <section id="personal" class="section">
-            <h2>Personal Side</h2>
-            <p><strong>Hobbies:</strong> Learning new things.</p>
-            <p><strong>Role Models:</strong> Abdul Karim Telgi</p>
-            <p><strong>Favorite Books:</strong> The Alkemist</p>
-            <p><strong>Favorite Websites/Startups:</strong> android studio</p>
-            <p><strong>Volunteering Experience:</strong> fresher</p>
-        </section>
-<section id="contact" class="section">
+  <section id="goals">
+    <h2>Future Goals</h2>
+    <p>I want to become a software developer.</p>
+  </section>
+
+  <hr>
+
+  <section id="personal">
+    <h2>Personal Side</h2>
+    <p><strong>Hobbies:</strong> Learning new things</p>
+    <p><strong>Role Model:</strong> Abdul Karim Telgi</p>
+    <p><strong>Favorite Book:</strong> The Alchemist</p>
+    <p><strong>Favorite Tool:</strong> Android Studio</p>
+    <p><strong>Volunteering:</strong> Fresher</p>
+  </section>
+
+  <hr>
+
+  <section id="contact">
     <h2>Contact Me</h2>
+    <iframe width="300" height="200" src="https://www.google.com/maps?q=Palghar,+Maharashtra,+India&output=embed"></iframe>
+    
     <form action="https://formspree.io/f/xkgrevyy" method="POST">
-        <label for="email">Your Email:</label><br>
-        <input type="email" name="email" id="email" required><br><br>
+      <p><strong>Your Email:</strong></p>
+      <textarea name="email" rows="1" required>vikramchoudhary3107@gmail.com</textarea><br><br>
 
-        <label for="message">Your Message:</label><br>
-        <textarea name="message" id="message" rows="5" required></textarea><br><br>
+      <p><strong>Your Message:</strong></p>
+      <textarea name="message" rows="5" required>
+Be a good programmer. Always think good and implement great. Never give up!
+      </textarea><br><br>
 
-        <!-- You can add more form fields here if needed -->
-
-        <button type="submit">Send</button>
+      <button type="submit">Send</button>
     </form>
-</section>
+  </section>
 
+  <hr>
 
+  <footer>
+    <p>
+      <strong>Gmail:</strong> 
+      <a href="mailto:vikramchoudhary3107@gmail.com">vikramchoudhary3107@gmail.com</a><br>
+      <strong>WhatsApp:</strong> 
+      <a href="https://wa.me/918600314243">8600314243</a>
+    </p>
+  </footer>
 
-        <footer class="footer">
-            <p>Contact me at <a href="mailto:jainharsh1845@gamil.com">vikramchoudhary3107@gmail.com</a></p>
-        </footer>
-    </div>
 </body>
 </html>
+
